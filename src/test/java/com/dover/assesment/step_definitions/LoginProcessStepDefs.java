@@ -36,7 +36,8 @@ public class LoginProcessStepDefs extends BaseStep {
     @Then("the user should be logged in")
     public void theUserShouldBeLoggedIn() {
         BrowserUtils.wait(1);
-        Assert.assertEquals(pages.webOrdersPage().getCurrentUrl(), "http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/");
+        Assert.assertEquals(pages.webOrdersPage().getCurrentUrl(),
+                "http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/");
     }
 
     @Then("the user arrives at the home page and welcome text containing the username {string}")

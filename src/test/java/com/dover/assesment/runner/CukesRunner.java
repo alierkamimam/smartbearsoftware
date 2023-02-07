@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "com/dover/assesment/step_definitions",
-        tags = "@abc",
+        tags = "@Payment_API_Test",
         dryRun = false
 
 )
